@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Choices" max_length="40" name="u_choices" type="string">
+            <choice>
+                <element label="NOI" sequence="0" value="NOI"/>
+                <element label="SCOM" sequence="1" value="SCOM"/>
+                <element label="SNOW" sequence="2" value="SNOW"/>
+            </choice>
+        </element>
+        <element label="New Time" max_length="40" name="u_glide_time_5" type="glide_time"/>
+        <element label="New filed 3" max_length="40" name="u_new_field_3" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Problem id" max_length="40" name="u_problem_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_6" type="string"/>
+    </element>
+</database>
